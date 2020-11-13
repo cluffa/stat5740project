@@ -1,4 +1,4 @@
-# stat5740project
+# stat 5740 project
 both csv's have spaces removed from the front of the variables.
 
 Group_code_13.sas is the file to create the main sas data file
