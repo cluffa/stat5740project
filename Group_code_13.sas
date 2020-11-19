@@ -45,6 +45,7 @@ data mylib.userstddev (rename=(rating=stddev_user_rating));
 	drop _TYPE_ _STAT_;
 	if _STAT_ ~= "STD" then delete;
 	if userid = "" then delete;
+	var_user_rating = (rating)*(rating);
 run;
 
 /* merge data */
